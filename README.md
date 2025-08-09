@@ -1,14 +1,14 @@
 # 🌟 Help For Tamil Heroes - யோக்சியர் தமிழ் சமூகம்
 
-[![Deploy to GitHub Pages](https://github.com/USERNAME/help-for-tamil-heroes/actions/workflows/deploy.yml/badge.svg)](https://github.com/USERNAME/help-for-tamil-heroes/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/Fernando280773/-help-for-tamil-heroes/actions/workflows/deploy.yml/badge.svg)](https://github.com/Fernando280773/-help-for-tamil-heroes/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/USERNAME/help-for-tamil-heroes)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/Fernando280773/-help-for-tamil-heroes)
 
 A beautiful community website for the Yorkshire Tamil Community supporting former Tamil freedom fighters who suffered injuries during the liberation struggle.
 
 ## � Live Demo
 
-**[View Live Website](https://USERNAME.github.io/help-for-tamil-heroes/)**
+**[View Live Website](https://fernando280773.github.io/-help-for-tamil-heroes/)**
 
 ## 🏅 Project Overview
 
@@ -62,8 +62,8 @@ This website serves as a platform for:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/USERNAME/help-for-tamil-heroes.git
-   cd help-for-tamil-heroes
+   git clone https://github.com/Fernando280773/-help-for-tamil-heroes.git
+   cd -help-for-tamil-heroes
    ```
 
 2. **Start local server**
@@ -105,7 +105,7 @@ This project is configured for automatic deployment to GitHub Pages:
 
 1. **Push to main branch** triggers automatic deployment
 2. **GitHub Actions** builds and deploys the site
-3. **Available at**: `https://USERNAME.github.io/help-for-tamil-heroes/`
+3. **Available at**: `https://fernando280773.github.io/-help-for-tamil-heroes/`
 
 ### Manual Deployment Steps
 1. Go to your repository on GitHub
