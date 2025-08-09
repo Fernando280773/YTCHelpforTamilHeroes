@@ -1,0 +1,28 @@
+{
+  "name": "help-for-tamil-heroes",
+  "version": "1.0.0",
+  "description": "Yorkshire Tamil Community website supporting former Tamil freedom fighters",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "tamil",
+    "community",
+    "yorkshire",
+    "humanitarian",
+    "heroes",
+    "website"
+  ],
+  "author": "Yorkshire Tamil Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yorkshire-tamil-community/help-for-tamil-heroes"
+  },
+  "homepage": "https://yorkshire-tamil-community.github.io/help-for-tamil-heroes",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,192 @@
+/* Help For Tamil Heroes - Custom Styles */
+
+body {
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 25%, #06D6A0 50%, #118AB2 75%, #073B4C 100%);
+    min-height: 100vh;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #FF4444, #FF8844, #FFD700, #32CD32, #1E90FF, #20B2AA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite;
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, #FF4444 0%, #FF8844 25%, #FFD700 50%, #32CD32 75%, #1E90FF 100%);
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+}
+
+.card-gradient-1 {
+    background: linear-gradient(145deg, #FF4444 0%, #FF6B35 50%, #FF8844 100%) !important;
+    box-shadow: 0 8px 32px rgba(255, 68, 68, 0.3);
+}
+
+.card-gradient-2 {
+    background: linear-gradient(145deg, #FFD700 0%, #ADFF2F 50%, #32CD32 100%) !important;
+    box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);
+}
+
+.card-gradient-3 {
+    background: linear-gradient(145deg, #1E90FF 0%, #00CED1 50%, #20B2AA 100%) !important;
+    box-shadow: 0 8px 32px rgba(30, 144, 255, 0.3);
+}
+
+.section-gradient-1 {
+    background: linear-gradient(180deg, #FFF5F5 0%, #FFE4E1 50%, #FFEAA7 100%);
+}
+
+.section-gradient-2 {
+    background: linear-gradient(180deg, #F0FFF0 0%, #E6FFE6 50%, #D4F1D4 100%);
+}
+
+.section-gradient-3 {
+    background: linear-gradient(180deg, #F0F8FF 0%, #E0F6FF 50%, #B0E0E6 100%);
+}
+
+.btn-gradient-primary {
+    background: linear-gradient(45deg, #FF4444, #FF8844);
+    transition: all 0.3s ease;
+}
+
+.btn-gradient-primary:hover {
+    background: linear-gradient(45deg, #FF2222, #FF6622);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(255, 68, 68, 0.3);
+}
+
+.btn-gradient-secondary {
+    background: linear-gradient(45deg, #FFD700, #32CD32);
+    transition: all 0.3s ease;
+}
+
+.btn-gradient-secondary:hover {
+    background: linear-gradient(45deg, #FFCC00, #228B22);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+}
+
+.btn-gradient-accent {
+    background: linear-gradient(45deg, #1E90FF, #20B2AA);
+    transition: all 0.3s ease;
+}
+
+.btn-gradient-accent:hover {
+    background: linear-gradient(45deg, #0066CC, #008B8B);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(30, 144, 255, 0.3);
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.floating-animation {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.border-gradient {
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #FF4444, #FFD700, #32CD32, #1E90FF) 1;
+    border-radius: 15px;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tamil-heading {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.implementation-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
+}
+
+.implementation-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.pulse-animation {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .8; }
+}
+
+/* Smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #FF4444, #1E90FF);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #FF2222, #0066CC);
+}
+
+/* Mission Cards Enhanced Styles */
+.mission-card-1 {
+    background: linear-gradient(145deg, #FF4444 0%, #FF6B35 50%, #FF8844 100%) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.mission-card-2 {
+    background: linear-gradient(145deg, #FFD700 0%, #ADFF2F 50%, #32CD32 100%) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.mission-card-3 {
+    background: linear-gradient(145deg, #1E90FF 0%, #00CED1 50%, #20B2AA 100%) !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* Ensure proper text contrast */
+.mission-card-1 h3,
+.mission-card-1 p,
+.mission-card-2 h3,
+.mission-card-2 p,
+.mission-card-3 h3,
+.mission-card-3 p {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
