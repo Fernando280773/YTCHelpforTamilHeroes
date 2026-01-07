@@ -20,6 +20,27 @@ body {
     animation: gradientMove 8s ease infinite;
 }
 
+/* Modal Transitions */
+.modal {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-enter-active {
+    opacity: 1;
+}
+
+.modal-exit {
+    opacity: 1;
+}
+
+.modal-exit-active {
+    opacity: 0;
+}
+
 .card-gradient-1 {
     background: linear-gradient(145deg, #FF4444 0%, #FF6B35 50%, #FF8844 100%) !important;
     box-shadow: 0 8px 32px rgba(255, 68, 68, 0.3);

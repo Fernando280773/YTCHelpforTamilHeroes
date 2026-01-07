@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="ta">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help For Tamil Heroes - யோக்சியர் தமிழ் சமூகம்</title>
-    
+
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏅%3C/text%3E%3C/svg%3E">
-    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAA8A2UOAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KGV7hBwAAAjlJREFUWAntVk1IVEEYfm9md3dfd3fXXVvN1WwrK6wsLaGDhwg6RBGUJ4NO0aGTdOhQEJ0KOkQHoUMQdBA6FHSoQ4cOBR066J/+wCwts39213d3534z37wzs6+si0VBBx8YZmbe933f9/3MvDcM/M9L6V+AKIpwHAfWWliWBSGEP1ar1aBcLiOKInieB8uyUKlUEIYhSqUS5+Aewcb/BiClhG3b8DwPnueB4zi43W6Uy+VfSMOiqCRGtVpFHMeQUsJxHFBKIaVEGIZgjIExBs45GGOwLAuO48BxHAgh4Ps+LMuCbdsIggCO48C2bViWhTAMEQQBXNeFEAJBEMBxHJRKJViWBSklbNuGlBJCCAghEEURHMeBEAJRFEEIAcdxwDlHGIZwXReO4yAMQ7iuC9u2EQQBOOfwfR+WZSEMQwRBAM45HMeB7/sQQiAIAjiOA8dxEEURfN+H7/sQQsD3fTiOgzAMIaWE53nwfR9RFCEMQziOA9u2EQQBOOeo1WrwfR+e5yEMQ0gpEUURhBCoVCoIggBBECAMQ3ieh1qthiiKEIYhgiCA53nwfR9RFCGKIgghUKvVEEURarUafN+H7/uIoghCCAghUKvVEEURqtUqgiCA7/uIoghhGCIIAnieB9/3EYYhwjBEEATwfR9hGCKKIkRRhDAMUa1WEYYhpJSo1WqIoghCCERRhDAMUa1WEQQBfN9HGIao1WqIoghRFCEMQ1SrVQRBAN/3EYYharUaoihCFEUIwxDVahVBEMD3fYRhiFqthiiKEEUR/gAqbvJBXyKkJQAAAABJRU5ErkJggg==">
-    
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏅%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAA8A2UOAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KGV7hBwAAAjlJREFUWAntVk1IVEEYfm9md3dfd3fXXVvN1WwrK6wsLaGDhwg6RBGUJ4NO0aGTdOhQEJ0KOkQHoUMQdBA6FHSoQ4cOBR066J/+wCwts39213d3534z37wzs6+si0VBBx8YZmbe933f9/3MvDcM/M9L6V+AKIpwHAfWWliWBSGEP1ar1aBcLiOKInieB8uyUKlUEIYhSqUS5+Aewcb/BiClhG3b8DwPnueB4zi43W6Uy+VfSMOiqCRGtVpFHMeQUsJxHFBKIaVEGIZgjIExBs45GGOwLAuO48BxHAgh4Ps+LMuCbdsIggCO48C2bViWhTAMEQQBXNeFEAJBEMBxHJRKJViWBSklbNuGlBJCCAghEEURHMeBEAJRFEEIAcdxwDlHGIZwXReO4yAMQ7iuC9u2EQQBOOfwfR+WZSEMQwRBAM45HMeB7/sQQiAIAjiOA8dxEEURfN+H7/sQQsD3fTiOgzAMIaWE53nwfR9RFCEMQziOA9u2EQQBOOeo1WrwfR+e5yEMQ0gpEUURhBCoVCoIggBBECAMQ3ieh1qthiiKEIYhgiCA53nwfR9RFCGKIgghUKvVEEURarUafN+H7/uIoghCCAghUKvVEEURqtUqgiCA7/uIoghhGCIIAnieB9/3EYYhwjBEEATwfR9hGCKKIkRRhDAMUa1WEYYhpJSo1WqIoghCCERRhDAMUa1WEQQBfN9HGIao1WqIoghRFCEMQ1SrVQRBAN/3EYYharUaoihCFEUIwxDVahVBEMD3fYRhiFqthiiKEEUR/gAqbvJBXyKkJQAAAABJRU5ErkJggg==">
+
     <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;600;700;900&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;600;700;900&family=Inter:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- Hero Section with Rich Gradients -->
     <div class="hero-gradient min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -23,35 +29,39 @@
             <div class="text-center">
                 <!-- Logo Section -->
                 <div class="mb-8 floating-animation">
-                    <img src="https://page.gensparksite.com/v1/base64_upload/ba7b041fd71cf56b0fde5434da123cbf" alt="Yorkshire Tamil Community Logo" class="mx-auto w-32 h-32 md:w-48 md:h-48 rounded-full shadow-2xl border-4 border-white">
+                    <img src="https://page.gensparksite.com/v1/base64_upload/ba7b041fd71cf56b0fde5434da123cbf"
+                        alt="Yorkshire Tamil Community Logo"
+                        class="mx-auto w-32 h-32 md:w-48 md:h-48 rounded-full shadow-2xl border-4 border-white">
                 </div>
-               
+
                 <!-- Main Title -->
                 <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 tamil-heading">
                     Help For Tamil Heroes
                 </h1>
                 <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-8">
-                     யோக்சியர் தமிழ் சமூகம்
+                    யோக்சியர் தமிழ் சமூகம்
                 </h2>
-               
+
                 <!-- Subtitle -->
                 <p class="text-xl md:text-2xl text-white mb-12 max-w-4xl mx-auto opacity-90">
-                    தமிழர் விடுதலைப் போராட்டத்தில்  உடல் உறுப்புகளை இழந்த  முன்னாள் போராளிகளுக்கான  மறுவாழ்வு திட்டம்.
+                    தமிழர் விடுதலைப் போராட்டத்தில் உடல் உறுப்புகளை இழந்த முன்னாள் போராளிகளுக்கான மறுவாழ்வு திட்டம்.
                 </p>
-               
+
                 <!-- CTA Buttons -->
                 <div class="flex flex-col md:flex-row gap-6 justify-center">
-                    <button id="helpBtn" class="btn-gradient-primary text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg">
+                    <button id="helpBtn"
+                        class="btn-gradient-primary text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg">
                         <i class="fas fa-heart mr-3"></i>எங்களுடன் ஒன்றிணையுங்கள்
                     </button>
-                    <button id="learnMoreBtn" class="btn-gradient-secondary text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg">
+                    <button id="learnMoreBtn"
+                        class="btn-gradient-secondary text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg">
                         <i class="fas fa-info-circle mr-3"></i>மேலும் அறிக
                     </button>
                 </div>
             </div>
         </div>
     </div>
-   
+
     <!-- Mission Section -->
     <div id="mission" class="section-gradient-1 py-20">
         <div class="container mx-auto px-6">
@@ -59,67 +69,79 @@
                 <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-6 tamil-heading">நோக்கம்</h2>
                 <div class="w-32 h-1 bg-gradient-to-r from-red-500 to-orange-500 mx-auto rounded-full"></div>
             </div>
-           
+
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Mission Card 1 -->
-                <div class="mission-card-1 card-gradient-1 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
+                <div
+                    class="mission-card-1 card-gradient-1 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
                     <div class="text-center mb-6">
-                        <div class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+                        <div
+                            class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
                             <i class="fas fa-medal text-3xl text-white"></i>
                         </div>
                         <h3 class="text-2xl font-bold mb-4">கௌரவித்தல்</h3>
                     </div>
                     <p class="text-lg leading-relaxed">
-                        தமிழர் விடுதலைப் போராட்டத்தில் உடல் உறுப்புகளை இழந்த முன்னாள் போராளிகளை கௌரவித்து, சமூகத்தில் உரிய மதிப்புடன் வாழ வழி செய்வோம்.
+                        தமிழர் விடுதலைப் போராட்டத்தில் உடல் உறுப்புகளை இழந்த முன்னாள் போராளிகளை கௌரவித்து, சமூகத்தில்
+                        உரிய மதிப்புடன் வாழ வழி செய்வோம்.
                     </p>
                 </div>
-               
+
                 <!-- Mission Card 2 -->
-                <div class="mission-card-2 card-gradient-2 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
+                <div
+                    class="mission-card-2 card-gradient-2 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
                     <div class="text-center mb-6">
-                        <div class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+                        <div
+                            class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
                             <i class="fas fa-hands-helping text-3xl text-white"></i>
                         </div>
                         <h3 class="text-2xl font-bold mb-4">மறுவாழ்வு</h3>
                     </div>
                     <p class="text-lg leading-relaxed">
-                        உடல் உறுப்புகளை இழந்த வீரர்களுக்கு மரியாதை செலுத்தி, அவர்களின் சமூக மறுவாழ்வுக்கு உறுதியளிப்போம்.
+                        உடல் உறுப்புகளை இழந்த வீரர்களுக்கு மரியாதை செலுத்தி, அவர்களின் சமூக மறுவாழ்வுக்கு
+                        உறுதியளிப்போம்.
                     </p>
                 </div>
-               
+
                 <!-- Mission Card 3 -->
-                <div class="mission-card-3 card-gradient-3 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
+                <div
+                    class="mission-card-3 card-gradient-3 p-8 rounded-2xl shadow-2xl glass-effect text-white transform hover:scale-105 transition-all duration-300">
                     <div class="text-center mb-6">
-                        <div class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+                        <div
+                            class="w-20 h-20 mx-auto bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
                             <i class="fas fa-users text-3xl text-white"></i>
                         </div>
                         <h3 class="text-2xl font-bold mb-4">கண்ணியம்</h3>
                     </div>
                     <p class="text-lg leading-relaxed">
-                        தமிழர் போராட்டத்தில் உடல் உறுப்புகளை இழந்த வீரர்களை மதிப்பளித்து, அவர்களுக்கு சமூகத்தில் கண்ணியமான மறுவாழ்வை  உறுதி செய்வோம்.
+                        தமிழர் போராட்டத்தில் உடல் உறுப்புகளை இழந்த வீரர்களை மதிப்பளித்து, அவர்களுக்கு சமூகத்தில்
+                        கண்ணியமான மறுவாழ்வை உறுதி செய்வோம்.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-   
+
     <!-- About Section -->
     <div id="about" class="section-gradient-2 py-20">
         <div class="container mx-auto px-6">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold gradient-text text-center mb-12 tamil-heading">திட்டத்தின் விவரம்</h2>
-               
+                <h2 class="text-4xl md:text-5xl font-bold gradient-text text-center mb-12 tamil-heading">திட்டத்தின்
+                    விவரம்</h2>
+
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div class="glass-effect p-8 rounded-2xl">
                         <h3 class="text-2xl font-bold text-gray-800 mb-6">நமது பார்வை</h3>
                         <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                            தமிழர்களின் விடுதலைப் போராட்டத்தில் அங்கங்கள் இழந்த முன்னாள் போராளிகள் பலர் இன்று சமூகத்தில் பின்தங்கிய நிலையில் உள்ளனர். இத்திட்டத்தின் முக்கிய நோக்கம், அவர்களை மதிப்புடன் கௌரவித்து, சமூகத்தில் அவர்களுக்குரிய இடத்தை உறுதி செய்வதாகும்.
+                            தமிழர்களின் விடுதலைப் போராட்டத்தில் அங்கங்கள் இழந்த முன்னாள் போராளிகள் பலர் இன்று சமூகத்தில்
+                            பின்தங்கிய நிலையில் உள்ளனர். இத்திட்டத்தின் முக்கிய நோக்கம், அவர்களை மதிப்புடன் கௌரவித்து,
+                            சமூகத்தில் அவர்களுக்குரிய இடத்தை உறுதி செய்வதாகும்.
                         </p>
                         <p class="text-lg text-gray-700 leading-relaxed">
                             இதனை நிறைவேற்ற சமூக அமைப்புகளின் பங்களிப்பும், சர்வதேச அமைப்புகளின் ஆதரவும் முக்கியமானது.
                         </p>
                     </div>
-                   
+
                     <div class="grid grid-cols-2 gap-4">
                         <div class="implementation-card p-6 rounded-xl text-center">
                             <div class="text-3xl text-red-500 mb-3">
@@ -154,34 +176,42 @@
             </div>
         </div>
     </div>
-   
+
     <!-- Implementation Plan -->
     <div id="implementation" class="section-gradient-3 py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl md:text-5xl font-bold gradient-text text-center mb-16 tamil-heading">செயல்படுத்துதல் திட்டம்</h2>
-           
+            <h2 class="text-4xl md:text-5xl font-bold gradient-text text-center mb-16 tamil-heading">செயல்படுத்துதல்
+                திட்டம்</h2>
+
             <div class="max-w-6xl mx-auto">
                 <div class="space-y-8">
                     <!-- Step 1 -->
                     <div class="implementation-card p-8 rounded-2xl">
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
-                                <div class="w-16 h-16 card-gradient-1 rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
+                                <div
+                                    class="w-16 h-16 card-gradient-1 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    1</div>
                             </div>
                             <div>
-                                <h3 class="text-2xl font-bold text-gray-800 mb-4">போரில் காயம் அடைந்த முன்னாள் போராளிகளை அடையாளம் காணுதல்</h3>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-4">போரில் காயம் அடைந்த முன்னாள் போராளிகளை
+                                    அடையாளம் காணுதல்</h3>
                                 <p class="text-lg text-gray-700 leading-relaxed">
-                                    முதல் கட்டமாக, அங்கங்களை இழந்த 35 முன்னாள் போராளிகளை யோக்சியர் தமிழ் சமூகம் அங்கீகரித்து கௌரவிக்கிறது. தொடர்ந்து, மற்ற காயம் அடைந்த போராளிகளின் பட்டியல் தயாரிக்கப்படலாம்.
+                                    முதல் கட்டமாக, அங்கங்களை இழந்த 35 முன்னாள் போராளிகளை யோக்சியர் தமிழ் சமூகம்
+                                    அங்கீகரித்து கௌரவிக்கிறது. தொடர்ந்து, மற்ற காயம் அடைந்த போராளிகளின் பட்டியல்
+                                    தயாரிக்கப்படலாம்.
                                 </p>
                             </div>
                         </div>
                     </div>
-                   
+
                     <!-- Step 2 -->
                     <div class="implementation-card p-8 rounded-2xl">
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
-                                <div class="w-16 h-16 card-gradient-2 rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
+                                <div
+                                    class="w-16 h-16 card-gradient-2 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    2</div>
                             </div>
                             <div>
                                 <h3 class="text-2xl font-bold text-gray-800 mb-4">தியாகத்துக்கான கௌரவ விருது</h3>
@@ -190,53 +220,65 @@
                                 </p>
                                 <div class="glass-effect p-4 rounded-lg">
                                     <p class="text-gray-800 font-medium italic">
-                                        "உங்கள் தியாகம் வீண் போகவில்லை; யோக்சியர் தமிழ் சமூகம் உங்கள் புதிய குடும்பம். எங்கள் அன்பும் பாதுகாப்பும் எப்போதும் உங்களுடன் இருக்கும்."
+                                        "உங்கள் தியாகம் வீண் போகவில்லை; யோக்சியர் தமிழ் சமூகம் உங்கள் புதிய குடும்பம்.
+                                        எங்கள் அன்பும் பாதுகாப்பும் எப்போதும் உங்களுடன் இருக்கும்."
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
+
                     <!-- Step 3 -->
                     <div class="implementation-card p-8 rounded-2xl">
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
-                                <div class="w-16 h-16 card-gradient-3 rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
+                                <div
+                                    class="w-16 h-16 card-gradient-3 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    3</div>
                             </div>
                             <div>
                                 <h3 class="text-2xl font-bold text-gray-800 mb-4">சமூக அமைப்புகளின் ஈடுபாடு</h3>
                                 <p class="text-lg text-gray-700 leading-relaxed">
-                                    இலங்கையில் இயங்கும் உள்ளூர் தொண்டு அமைப்புகள், சமூக மையங்களின், சமய அமைப்புகள் ஊடாக சமூக விழா நடத்தி கௌரவ சான்றிதழ்கள் வழங்குதல். ICRC, Meththa Foundation, HI, UNDP போன்ற அமைப்புகளை அழைப்பது மூலம் சர்வதேச கவனம் பெற்றுக் கொள்ளலாம்.
+                                    இலங்கையில் இயங்கும் உள்ளூர் தொண்டு அமைப்புகள், சமூக மையங்களின், சமய அமைப்புகள் ஊடாக
+                                    சமூக விழா நடத்தி கௌரவ சான்றிதழ்கள் வழங்குதல். ICRC, Meththa Foundation, HI, UNDP
+                                    போன்ற அமைப்புகளை அழைப்பது மூலம் சர்வதேச கவனம் பெற்றுக் கொள்ளலாம்.
                                 </p>
                             </div>
                         </div>
                     </div>
-                   
+
                     <!-- Step 4 -->
                     <div class="implementation-card p-8 rounded-2xl">
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-xl">4</div>
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    4</div>
                             </div>
                             <div>
                                 <h3 class="text-2xl font-bold text-gray-800 mb-4">சர்வதேச தொண்டு அமைப்புகளின் கவனம்</h3>
                                 <p class="text-lg text-gray-700 leading-relaxed">
-                                    இளைஞர்களின் அமைப்பு, கல்வி அமைப்புகள் ஊடாக சர்வதேச தொண்டு அமைப்புகளின் கவனத்துக்கும் இதைக் கொண்டு சேர்த்து, சர்வதேச அமைப்புக்களின் கவனத்தை ஏற்படுத்துதல் (ICRC), (UNHCR), (HI), (Doctors Without Borders), UNDP, (IRC) Christian Aid, Relief International UK.
+                                    இளைஞர்களின் அமைப்பு, கல்வி அமைப்புகள் ஊடாக சர்வதேச தொண்டு அமைப்புகளின் கவனத்துக்கும்
+                                    இதைக் கொண்டு சேர்த்து, சர்வதேச அமைப்புக்களின் கவனத்தை ஏற்படுத்துதல் (ICRC), (UNHCR),
+                                    (HI), (Doctors Without Borders), UNDP, (IRC) Christian Aid, Relief International UK.
                                 </p>
                             </div>
                         </div>
                     </div>
-                   
+
                     <!-- Step 5 -->
                     <div class="implementation-card p-8 rounded-2xl">
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">5</div>
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    5</div>
                             </div>
                             <div>
                                 <h3 class="text-2xl font-bold text-gray-800 mb-4">நிதி ஆதரவு திட்டம்</h3>
                                 <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                                    "Help For Tamil Heroes" திட்டத்திற்கு சுய விருப்பத்தின் அடிப்படையில் இங்கிலாந்து வாழும் குடும்பங்கள் மாதாந்தம் £2, தமிழ வியாபாரிகள் £3 வழங்கலாம்.
+                                    "Help For Tamil Heroes" திட்டத்திற்கு சுய விருப்பத்தின் அடிப்படையில் இங்கிலாந்து
+                                    வாழும் குடும்பங்கள் மாதாந்தம் £2, தமிழ வியாபாரிகள் £3 வழங்கலாம்.
                                 </p>
                                 <div class="grid md:grid-cols-3 gap-4 mt-6">
                                     <div class="glass-effect p-4 rounded-lg text-center">
@@ -259,37 +301,42 @@
             </div>
         </div>
     </div>
-   
+
     <!-- Call to Action Section -->
     <div id="contact" class="hero-gradient py-20">
         <div class="absolute inset-0 bg-black bg-opacity-30"></div>
         <div class="container mx-auto px-6 relative z-10">
             <div class="text-center">
                 <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 tamil-heading">
-                    சிறிய தொகை, பெரும் நம்பிக்கை – மாதம் £2; .அவர்களின் மறுவாழ்வுக்கு நீங்கள் ஒவ்வொரு மாதமும் கொடுக்கக்கூடிய சிறு உதவி,
+                    சிறிய தொகை, பெரும் நம்பிக்கை – மாதம் £2; .அவர்களின் மறுவாழ்வுக்கு நீங்கள் ஒவ்வொரு மாதமும்
+                    கொடுக்கக்கூடிய சிறு உதவி,
                 </h2>
-               
+
                 <div class="flex flex-col md:flex-row gap-6 justify-center mb-12">
-                    <button id="donateBtn" class="btn-gradient-primary text-white px-10 py-5 rounded-full text-xl font-bold shadow-2xl pulse-animation">
+                    <button id="donateBtn"
+                        class="btn-gradient-primary text-white px-10 py-5 rounded-full text-xl font-bold shadow-2xl pulse-animation">
                         <i class="fas fa-donate mr-3"></i>மாதம் £2 மட்டும்.
                     </button>
-                    <button id="shareBtn" class="btn-gradient-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-2xl">
+                    <button id="shareBtn"
+                        class="btn-gradient-accent text-white px-10 py-5 rounded-full text-xl font-bold shadow-2xl">
                         <i class="fas fa-share-alt mr-3"></i>பகிருங்கள்
                     </button>
                 </div>
-               
+
                 <!-- Contact Information -->
                 <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                     <div class="glass-effect p-6 rounded-2xl text-white text-center">
                         <i class="fas fa-envelope text-3xl mb-4 text-yellow-300"></i>
                         <h4 class="font-bold mb-2">மின்னஞ்சல்</h4>
-                        
-                        <p class="opacity-90">admin@ytctamil.com</p>
+
+                        <p class="opacity-90"><a href="mailto:admin@ytctamil.com"
+                                class="hover:text-yellow-300 transition-colors">admin@ytctamil.com</a></p>
                     </div>
                     <div class="glass-effect p-6 rounded-2xl text-white text-center">
                         <i class="fas fa-phone text-3xl mb-4 text-green-300"></i>
                         <h4 class="font-bold mb-2">தொலைபேசி</h4>
-                        <p class="opacity-90">+44 XX XXXX XXXX</p>
+                        <p class="opacity-90"><a href="tel:+44XXXXXXXXXX"
+                                class="hover:text-green-300 transition-colors">+44 XX XXXX XXXX</a></p>
                     </div>
                     <div class="glass-effect p-6 rounded-2xl text-white text-center">
                         <i class="fas fa-map-marker-alt text-3xl mb-4 text-red-300"></i>
@@ -300,13 +347,14 @@
             </div>
         </div>
     </div>
-   
+
     <!-- Footer -->
     <div class="bg-gray-900 py-12">
         <div class="container mx-auto px-6">
             <div class="text-center">
                 <div class="mb-6">
-                    <img src="https://page.gensparksite.com/v1/base64_upload/ba7b041fd71cf56b0fde5434da123cbf" alt="Yorkshire Tamil Community Logo" class="mx-auto w-20 h-20 rounded-full">
+                    <img src="https://page.gensparksite.com/v1/base64_upload/ba7b041fd71cf56b0fde5434da123cbf"
+                        alt="Yorkshire Tamil Community Logo" class="mx-auto w-20 h-20 rounded-full">
                 </div>
                 <h3 class="text-2xl font-bold gradient-text mb-4">யோக்சியர் தமிழ் சமூகம்</h3>
                 <p class="text-gray-400 mb-6 max-w-2xl mx-auto">
@@ -327,7 +375,79 @@
                     </a>
                 </div>
                 <div class="mt-8 pt-6 border-t border-gray-700">
-                    <p class="text-gray-500">&copy; 2024 யோக்சியர் தமிழ் சமூகம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+                    <p class="text-gray-500">&copy; 2024 யோக்சியர் தமிழ் சமூகம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donation Modal -->
+    <div id="donationModal" class="modal fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title"
+        role="dialog" aria-modal="true">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <!-- Background overlay -->
+            <div class="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity" aria-hidden="true"
+                id="modalOverlay"></div>
+
+            <!-- Modal panel -->
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div
+                class="inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div
+                            class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                            <i class="fas fa-hand-holding-heart text-red-600"></i>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
+                            <h3 class="text-xl leading-6 font-bold text-gray-900" id="modal-title">
+                                வங்கி விவரங்கள் (Bank Details)
+                            </h3>
+                            <div class="mt-4 space-y-4">
+                                <p class="text-gray-600 text-sm">
+                                    உங்கள் நன்கொடைகளை இந்த வங்கி கணக்கிற்கு அனுப்பவும்:
+                                </p>
+                                <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                                    <div class="grid grid-cols-1 gap-2 text-sm">
+                                        <div class="flex justify-between border-b pb-2">
+                                            <span class="font-medium text-gray-500">Bank Name:</span>
+                                            <span class="font-bold text-gray-800">Virgin Bank</span>
+                                        </div>
+                                        <div class="flex justify-between border-b py-2">
+                                            <span class="font-medium text-gray-500">Account Name:</span>
+                                            <span class="font-bold text-gray-800">Yorkshire Tamil Community</span>
+                                        </div>
+                                        <div class="flex justify-between border-b py-2">
+                                            <span class="font-medium text-gray-500">Sort Code:</span>
+                                            <span class="font-bold text-gray-800">05-07-32</span>
+                                        </div>
+                                        <div class="flex justify-between border-b py-2">
+                                            <span class="font-medium text-gray-500">Account No:</span>
+                                            <span class="font-bold text-gray-800">21994885</span>
+                                        </div>
+                                        <div class="flex justify-between pt-2">
+                                            <span class="font-medium text-gray-500">Reference:</span>
+                                            <span class="font-bold text-gray-800">Help For Tamil Heroes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-2">
+                                    *குறிப்பு: நன்கொடை அனுப்பிய பிறகு ஸ்கிரீன்ஷாட் எடுத்து எங்களுக்கு அனுப்பவும்.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="closeModalBtn"
+                        class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        மூடு (Close)
+                    </button>
+                    <button type="button" id="copyDetailsBtn"
+                        class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        நகலெடு (Copy)
+                    </button>
                 </div>
             </div>
         </div>
@@ -335,4 +455,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
