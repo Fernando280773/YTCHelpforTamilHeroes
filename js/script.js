@@ -17,11 +17,56 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Help button - scroll to contact section
+    // Help button - Open Join Modal
     if (helpBtn) {
         helpBtn.addEventListener('click', function () {
-            document.getElementById('contact').scrollIntoView({
-                behavior: 'smooth'
-            });
+            const modal = document.getElementById('joinModal');
+            if (modal) {
+                modal.classList.remove('hidden');
+                setTimeout(() => {
+                    modal.querySelector('.bg-gray-900').classList.add('opacity-75');
+                    modal.querySelector('.inline-block').classList.add('opacity-100', 'translate-y-0', 'sm:scale-100');
+                    modal.querySelector('.inline-block').classList.remove('opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+                }, 10);
+            }
+        });
+    }
+
+    // Join Modal Logic
+    const closeJoinModalBtn = document.getElementById('closeJoinModalBtn');
+    const joinModalOverlay = document.getElementById('joinModalOverlay');
+    const joinModal = document.getElementById('joinModal');
+    const submitJoinBtn = document.getElementById('submitJoinBtn');
+
+    function closeJoinModal() {
+        if (joinModal) {
+            joinModal.classList.add('hidden');
+        }
+    }
+
+    if (closeJoinModalBtn) {
+        closeJoinModalBtn.addEventListener('click', closeJoinModal);
+    }
+
+    if (joinModalOverlay) {
+        joinModalOverlay.addEventListener('click', closeJoinModal);
+    }
+
+    if (submitJoinBtn) {
+        submitJoinBtn.addEventListener('click', function () {
+            const name = document.getElementById('joinName').value;
+            const phone = document.getElementById('joinPhone').value;
+            const address = document.getElementById('joinAddress').value;
+            const email = document.getElementById('joinEmail').value;
+
+            if (name && phone && address && email) {
+                // Here you would typically send this data to a server
+                alert(`நன்றி ${name}!\n\nஉங்கள் விவரங்கள் ஏற்றுக்கொள்ளப்பட்டன.\nவிரைவில் உங்களை தொடர்புகொள்வோம்.\n\nThank you! We will contact you soon.`);
+                closeJoinModal();
+                document.getElementById('joinForm').reset();
+            } else {
+                alert('தயவுசெய்து அனைத்து விவரங்களையும் பூர்த்தி செய்யவும்.\nPlease fill in all fields.');
+            }
         });
     }
 
